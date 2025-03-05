@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'emotion-timeline-visualization';
+  
+  ngonInit() {
+    console.log(this.title);
+  }
 }
