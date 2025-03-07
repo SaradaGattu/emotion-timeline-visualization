@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "emotion-timeline-visualization:build:production"
+              "buildTarget": "emotion-timeline-visualization:build:production"
             },
             "development": {
-              "browserTarget": "emotion-timeline-visualization:build:development"
+              "buildTarget": "emotion-timeline-visualization:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "emotion-timeline-visualization:build"
+            "buildTarget": "emotion-timeline-visualization:build"
           }
         },
         "test": {
